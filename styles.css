@@ -1,0 +1,26 @@
+header {
+  background-color: blue;
+}
+
+.container-md {
+  background-color: grey;
+}
+
+.container-lg {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.column {
+  float: left;
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
