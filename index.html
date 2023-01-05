@@ -16,13 +16,13 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <header>
+    <header class="title">
       <h1>Weather Dashboard</h1>
     </header>
     <div class="column left">
       <div>Search for a City:</div>
-      <nav class="navbar bg-body-tertiary">
-        <div class="container-fluid">
+      <nav class="navbar bg-body-primary">
+        <div class="container-fluid p-0">
           <form class="d-flex" role="search">
             <input
               class="form-control me-2"
@@ -30,7 +30,10 @@
               placeholder="Search"
               aria-label="Search"
             />
-            <button class="btn btn-outline-success" type="submit">
+            <button
+              class="btn btn-outline-subtle p-3 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3"
+              type="submit"
+            >
               Search
             </button>
           </form>
@@ -39,13 +42,15 @@
     </div>
 
     <div class="column right">
-      <div class="container-md">
-        <div>City & Date</div>
-        <div>Temp:</div>
-        <div>Wind:</div>
-        <div>Humidity:</div>
+      <div class="container-city-searched">
+        <ul>
+          <li>City & Date</li>
+          <li>Temp:</li>
+          <li>Wind:</li>
+          <li>Humidity:</li>
+        </ul>
       </div>
-      <div class="container-lg">
+      <div class="container-city-forecast">
         <div class="card" style="width: 18rem">
           <div class="card-body">
             <h5 class="card-title">Date</h5>
