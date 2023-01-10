@@ -1,0 +1,75 @@
+* {
+  margin: 0px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.title { 
+  background-image: linear-gradient(135deg, #cadfff, #0066ff);
+  color: white;
+}
+
+h1 {
+  padding: 5px;
+  font-weight: 100;
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+}
+
+.container-city-searched {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  /* border-style: solid; */
+  /* border-width: 2px; */
+  /* border-radius: 5px; */
+  /* border-color: #cadfff; */
+  align-content: center;
+  color: #0058dc;
+}
+
+.city-button {
+  padding: 5px;
+  border-radius: 4px;
+  border-style: none;
+  background-color: #d4d4d4;
+  color: #0058dc;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  padding: 5px;
+}
+
+.list-group {
+  background-color: rgb(214 230 255);;
+}
+
+.container-city-forecast {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  justify-content: space-between;
+  color: #0058dc;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left {
+  width: 30%;
+}
+
+.right {
+  width: 70%;
+}
+
+#hidden {
+  display: none;
+}
