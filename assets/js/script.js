@@ -43,15 +43,9 @@ function handleFormSubmit(event) {
   console.log(recentlySearchedCityDiv);
   localStorage.setItem("recent-city", searchedCity);
   $("#recently-searched-city").val(localStorage.getItem("recent-city"));
-  let cityItem = [];
-  function addListItem() {
-    for (let i = 0; i < cityItem.length; i++) {
-      document.querySelector("#recently-searched-city").innerHTML =
-        '<button class="city-button">' + searchedCity + "</button>";
-    }
-  }
+  document.querySelector("#recently-searched-city").innerHTML =
+    '<button class="city-button">' + searchedCity + "</button>";
   // calls function to display the right hand column
-  addListItem();
   displayColumnRight();
 }
 
